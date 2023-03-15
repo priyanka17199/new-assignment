@@ -32,7 +32,30 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.card-img-top,
+.card {
+  width: 18rem;
+}
+
+.row {
+  display: flex;
+}
+
+.input_div {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+input {
+  height: 50px;
+  width: 350px;
+  padding: 20px;
 }
